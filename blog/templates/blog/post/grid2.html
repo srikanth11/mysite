@@ -1,0 +1,107 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Srikanth Bashaboina</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="{% static "css/style.css" %}" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="style1.css"> -->
+</head>
+{% block body %}
+<div class="wrapper">
+  <header class="header"><span class="name">Srikanth Bashaboina</span>
+  <span class="span_header">
+  <ul id="headerul">
+  <li><a href="#Contact">Contact</a></li>
+  <li><a href="#Skills">Skills</a></li>
+  <li><a href="#Education">Education</a></li>
+  <li><a href="#Projects">Projects</a></li>
+  <li><a href="#Experience">Experience</a></li>
+  <li><a href="#About">About</a></li>
+  </ul>
+  </span>
+  </header>
+  <aside class="sidebar"><div><img src="{% static "img/IMG_20170212_180031.jpg" %}" alt="My image" width="300px" /><br/><br/><br/>
+    <span id="fooanch" style="font-size:16px;padding-top:50px;">My Linkedin Profile&nbsp;<a href="https://www.linkedin.com/in/srikanth-bashaboina-61595210b/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:23px;"></i></a></span>
+  </div>
+
+  </aside>
+  <article class="content">
+    <span class="About" id="About">About</span><p class="p1">&emsp;Hello everyone welcome to my blog!!!!!!. I am a Software Developer and passionate about computers. Having interest in computers have drived me towards developing software web applications and web projects.
+    I am always fond of how machines are controlled by software programs and runs successfully, generally this can be a part of Machine Learning. So, this enthusiastic controlling machines through programs made my interest to learn Machine Learning Techinques and its software patterns. And I am also looking for a good opportunity in Machine Learning.
+  <br/><br/>
+&emsp;Not only the programming, I am also having interest in playing Shuttle Badminton. In free time I'll prefer playing it. And my other hobbies are reading motivational books, articles on IoT.
+<br/><br/>
+&emsp;Thank you for visiting my blog. </p>
+    <hr>
+    <span class="Experience" id="Experience">Experience</span>
+      <table class="EX1">
+                  <tr ><td class="a">Peaufiner Technologies</td><td class="a" style="text-align:right;">Web Developer</td></tr>
+                  <tr><td colspan="2" class="b">Developed Web Application using Pyhton, PHP, Django and MongoDB</td></tr>
+                  <tr><td colspan="2" class="b">Handled Client side validation using JavaScript and JQuery</td>
+                  <tr><td colspan="2" class="b">Included in the Scrum team and takes scrum meeting on daily sprints</td>
+                  <tr><td colspan="2" class="b">Analysis the test cases for the sprints and designing the architecture for test cases</td></tr>
+                </table>
+      <table table="EX2">
+        <tr ><td class="a">Corporate Infocom Pvt.Ltd</td><td class="a" style="text-align:right;">Web Designer/Developer</td></tr>
+        <tr><td colspan="2" class="b">Created a website on new tech gadgets using wordpress and optimized with SEO</td></tr>
+        <tr><td colspan="2" class="b">Handled the HR  meetings and trained the team members on web designing using CMS.</td></tr>
+      </table>
+      <hr>
+      <span class="Education" id="Education">Education</span>
+      <table>
+        <tr><td class="a">Swami Vivekananda Institute of Technology</td><td class="a">08/2012-06/2016</td></tr>
+        <tr><td colspan="2" class="b">Bachelor of Technology in Computer Science</td></tr>
+        <tr><td colspan="2" class="b">During this 4 years academic program have come across through different programming languages, network designs and software methodologies.</td></tr>
+        <tr><td colspan="2" class="b">Have learnt programming languages and developed web appliation which was appreciated from the college. Participated in many Technical Events and achieved some prizes.</td></tr>
+      </table>
+    <hr>
+    <span class="Project" id="Projects">Projects</span>
+    <table>
+      <tr><td class="a">Peaufiner Technologies</td><td class="a">03/2017-10/2017</td></tr>
+      <tr><td colspan="2" class="b">Worked on Enhanced Social Web Platform using programming languages like CoreJava, MongoDB, Python. It allows user to communicate in professional manner.</td></tr>
+    </table>
+    <table>
+      <tr><td class="a">Current Working Project</td>
+      <tr><td class="b">Currently I am working on a Speech Recognition Web Application. It allows user to upload audio or video file and get the text of a speech as a result.</td></tr>
+    </table>
+    <table>
+      <tr><td class="a">Previous Project</td>
+      <tr><td class="b">Developed Online Resume Builder Web application using PHP and Scripting languages. It defines the resume template where user fills raw data by selecting a template and produce his/ her unique profile. This project is done during my B.Tech academics.</td></tr>
+    </table>
+    <hr>
+    <span class="Skills" id="Skills">Skills</span>
+    <ul id="skillsul">
+      <li>C</li>
+      <li>C++</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>PHP</li>
+      <li>MongoDB</li>
+      <li>SQL</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>JQuery</li>
+    </ul>
+    <hr>
+    <span class="Contact" id="Contact">Contact</span>
+    <p>Email: srikanth6835@gmail.com</p>
+    <!-- {% block content %}
+        <form action="." method="post">
+            {{ Form.as_p }}
+            {% csrf_token %}
+            <input type="submit" value="Send e-mail">
+        </form>
+{% endblock %} -->
+    <hr>
+  </article>
+  <footer class="footer"><div>copyright &copy; Srikanth Bashaboina, 2017 All rights reserved.&emsp;<span id="fooanch"><a href="https://www.linkedin.com/in/srikanth-bashaboina-61595210b/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:23px;"></i></a></span></div></footer>
+</div>
+
+
+
+{% endblock %}
+</html>

@@ -1,0 +1,61 @@
+/*home.html site css code*/
+
+body{
+  background: #D8D8D8;
+}
+.grid{
+  display:grid;
+  grid-row-gap:20px;
+  text-align:center;
+
+
+  }
+
+  .grid #con{
+    margin-top:20px;
+    display: inline;
+  }
+  span {
+    text-align:center;
+    background:#8A084B;
+    display:inline;
+    color:#F5DA81;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px #888888;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  span:hover {
+    background:black;
+    color:white;
+    display:inline;
+  }
+
+  a{
+    color:#0B3B0B;
+    text-decoration: none;
+  }
+  .grid #foot{
+    margin-top: 200px;
+
+  }
+  .foo {
+    font-size:18px;
+  }
+  #myCanvas{
+  width:94%;
+  position:absolute;
+
+  }
+  .grid #Name{
+    margin-top:200px;
+    position: relative;
+  }
+ p:hover{
+    background-color: #aaaaaa;
+    color:#FFFFFF;
+    border-radius: 10px;
+    display: inline;
+    width:100px;
+  }
