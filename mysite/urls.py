@@ -17,8 +17,6 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
+    # url(r'^admin/', include(admin.site.urls)),
     url(r'^blog/', include('blog.urls', namespace='blog', app_name='blog')),
-    url(r'^https://intense-plains-76355.herokuapp.com', include('blog.urls', namespace='intense-plains-76355', app_name='intense-plains-76355')),
-    
 ]
