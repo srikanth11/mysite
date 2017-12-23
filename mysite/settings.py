@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'https://intense-plains-76355.herokuapp.com',
 )
 
 MIDDLEWARE_CLASSES = (
