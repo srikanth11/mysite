@@ -6,7 +6,7 @@ colorama==0.2.5
 decorator==3.4.0
 html5lib==0.999
 httplib2==0.8
-ipython==1.2.1
+ipython==7.16.3
 keyring==3.5
 lazr.uri==1.0.3
 lockfile==0.8
